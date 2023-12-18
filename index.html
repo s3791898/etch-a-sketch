@@ -9,10 +9,22 @@
 </head>
 
 <body>
+  <h1 id="heading">Etch-A-Sketch Game</h1>
+
   <section class="game">
+    <button type="button" onclick="promptForNewSize()">Change size</button>
     <div id="sketch-area" class="container"></div>
   </section>
 
+  <footer>
+    <p>
+      Copyright ©
+      <script>
+        document.write(new Date().getFullYear())
+      </script>
+      Anthony Tsui
+    </p>
+  </footer>
   <script src="script.js"></script>
 </body>
 
